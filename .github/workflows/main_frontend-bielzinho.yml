@@ -53,4 +53,4 @@ jobs:
           app-name: 'frontend-bielzinho'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_E22DC88B3F184D499091E9411C536E7B }}
-          package: .
+          package: 'build'
